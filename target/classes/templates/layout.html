@@ -3,7 +3,7 @@
 <head th:fragment="site-head">
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="../public/css/styles.css" th:href="@{/css/styles.css}"/>
-    <link rel="icon" href="../public/img/favicon.ico" th:href="@{/img/favicon.ico}"/>
+    <link rel="icon" href="../public/img/icon.ico" th:href="@{/img/icon.ico}"/>
     <script src="../public/js/jquery-3.1.0.min.js" th:src="@{/js/jquery-3.1.0.min.js}"></script>
     <script src="../public/js/blog-scripts.js" th:src="@{/js/blog-scripts.js}"></script>
     <meta th:include="this :: head" th:remove="tag"/>
@@ -12,7 +12,7 @@
 <header th:fragment="site-header" th:remove="tag">
     <header>
         <a href="index.html" th:href="@{/}"><img
-                src="../public/img/site-logo.png" th:src="@{/img/site-logo.png}"/></a>
+                src="../public/img/site-logo.jpg" th:src="@{/img/site-logo.jpg}"/></a>
         <a href="index.html" th:href="@{/}">Home</a>
         <a href="users/login.html" th:href="@{/users/login}">Login</a>
         <a href="users/register.html" th:href="@{/users/register}">Register</a>

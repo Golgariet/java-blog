@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="metal-gear" />
+        <module name="maven-blog" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="metal-gear" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
